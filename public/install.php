@@ -3,6 +3,8 @@ define('APPLICATION_NAME', 'Öffentliches Zeugnisgeben');
 define('CONGREGATION_NAME', 'Installation');
 define('REQUIRE_INPUT_FIELDS', 8);
 
+require __DIR__ . '/../vendor/autoload.php';
+
 if(App\Tables\Database::exists_database()) {
     header('location: /');
     return;
