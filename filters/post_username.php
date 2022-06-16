@@ -1,1 +1,1 @@
-<?php return strtolower(trim(filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING)));
+<?php return trim(filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING));

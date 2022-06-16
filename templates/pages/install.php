@@ -1,4 +1,4 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <header>
     <h2>Installation</h2>
 </header>
@@ -6,10 +6,6 @@
     <form method="post">
         <fieldset>
             <legend>Admin</legend>
-            <div>
-                <label for="username">Benutzername <small>(Pflichtfeld)</small></label>
-                <input id="username" name="username" required value="<?php echo (isset($_POST['username']))? $_POST['username'] : 'admin';?>">
-            </div>
             <div>
                 <label for="name">Name <small>(Pflichtfeld)</small></label>
                 <input id="name" name="name" required value="<?php echo (isset($_POST['name']))? $_POST['name'] : '';?>">

@@ -1,4 +1,4 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <div class="container-center">
     <?php if(DEMO): ?>
         <div class="info-box">
@@ -20,17 +20,17 @@
     <form method="post">
         <fieldset>
             <legend>Anmelden</legend>
-            <p>Wenn du ein Konto hast, bitte <em>Benutzernamen</em> und <em>Passwort</em> eingeben.</p>
+            <p>Wenn du ein Konto hast, bitte deine Login Daten eingeben.</p>
             <div>
-                <label for="username">Benutzername</label>
-                <input id="username" name="username" value="<?php echo $placeholder['username']; ?>">
+                <label for="email_or_username">E-Mail oder Benutzername</label>
+                <input id="email_or_username" name="email_or_username" value="<?php echo $placeholder['email_or_username']; ?>" required>
             </div>
             <div>
                 <label for="password">Passwort</label>
-                <input id="password" type="password" name="password" autocomplete="off">
+                <input id="password" type="password" name="password" autocomplete="off" required>
             </div>
             <div id="divForgotLink" class="login">
-                <a href="/password-forgot.php" class="xsmall">Passwort vergessen</a>
+                <a href="./password-forgot.php" class="xsmall">Passwort vergessen</a>
             </div>
         </fieldset>
         <div class="from-button">
