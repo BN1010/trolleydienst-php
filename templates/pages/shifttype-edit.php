@@ -1,9 +1,9 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <header>
     <h2>Schichttyp bearbeiten</h2>
 </header>
 <nav>
-    <a href="shifttype.php" class="button">
+    <a href="./shifttype.php" class="button">
         <i class="fa fa-chevron-left"></i> zurück
     </a>
 </nav>

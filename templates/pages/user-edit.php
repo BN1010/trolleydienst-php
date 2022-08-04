@@ -1,9 +1,9 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <header>
     <h2>Teilnehmer bearbeiten</h2>
 </header>
 <nav id="nav-sub">
-    <a href="user.php" class="button">
+    <a href="./user.php" class="button">
         <i class="fa fa-chevron-left"></i> zurück
     </a>
 </nav>
@@ -32,11 +32,11 @@
                 <input id="email" name="email" required value="<?php echo $placeholder['user']['email'];?>">
             </div>
             <div>
-                <label for="mobile">Handynr</label>
+                <label for="mobile">Handynummer</label>
                 <input id="mobile" name="mobile" value="<?php echo $placeholder['user']['mobile'];?>">
             </div>
             <div>
-                <label for="phone">Telefonnr</label>
+                <label for="phone">Telefonnummer</label>
                 <input id="phone" name="phone" value="<?php echo $placeholder['user']['phone'];?>">
             </div>
             <div>

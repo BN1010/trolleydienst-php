@@ -1,9 +1,9 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <header>
     <h2>Berichte</h2>
 </header>
 <nav id="nav-sub">
-    <a href="report-submit.php" class="button active">
+    <a href="./report-submit.php" class="button active">
         <i class="fa fa-plus"></i> Bericht abgeben
     </a>
 </nav>
@@ -39,7 +39,7 @@
                     <tr>
                         <td colspan="2">
                             <p>
-                                <a href="report.php?id_report=<?php echo $id_report;?>" class="button warning">
+                                <a href="./report.php?id_report=<?php echo $id_report;?>" class="button warning">
                                     <i class="fa fa-trash-o"></i> löschen
                                 </a>
                                 <span><strong>Erstellt am:</strong> <?php echo $report['created'];?></span>

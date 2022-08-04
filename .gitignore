@@ -1,7 +1,4 @@
-.idea/
-vendor/
-nbproject/
-composer.phar
 composer.lock
 config.php
 database.*
+vendor/

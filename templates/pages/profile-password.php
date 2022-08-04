@@ -1,12 +1,12 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <header>
     <h2>Profil</h2>
 </header>
 <nav id="nav-sub">
-    <a href="profile.php" class="button">
+    <a href="./profile.php" class="button">
         <i class="fa fa-user"></i> Benutzerdaten
     </a>
-    <a href="profile-password.php" class="button active">
+    <a href="./profile-password.php" class="button active">
         <i class="fa fa-lock"></i> Passwort
     </a>
 </nav>

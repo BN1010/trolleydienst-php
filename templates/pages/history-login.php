@@ -1,15 +1,15 @@
-<?php $parse_link_ip_geo = include 'templates/helpers/parse_link_ip_geo.php';?>
+<?php $parse_link_ip_geo = include '../templates/helpers/parse_link_ip_geo.php';?>
 <header>
     <h2>Verlauf</h2>
 </header>
 <nav id="nav-sub">
-    <a href="history-shift.php" class="button">
+    <a href="./history-shift.php" class="button">
         <i class="fa fa-calendar-o"></i> Schichtverlauf
     </a>
-    <a href="history-login.php" class="button active">
+    <a href="./history-login.php" class="button active">
         <i class="fa fa-sign-in"></i> Login
     </a>
-    <a href="history-system.php" class="button">
+    <a href="./history-system.php" class="button">
         <i class="fa fa-cog"></i> System
     </a>
 </nav>

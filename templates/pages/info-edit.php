@@ -1,9 +1,9 @@
-<?php include 'templates/pagesnippets/note-box.php' ?>
+<?php include '../templates/pagesnippets/note-box.php' ?>
 <header>
     <h2>Info hochladen</h2>
 </header>
 <nav id="nav-sub">
-    <a href="info.php" class="button">
+    <a href="./info.php" class="button">
         <i class="fa fa-chevron-left"></i> zurück
     </a>
 </nav>
